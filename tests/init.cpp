@@ -13,7 +13,7 @@ SCENARIO("test by vector", "[vector]") {
 	REQUIRE(v[2] == 5);
 	REQUIRE(v[3] == 9);
 	REQUIRE(v[4] == 4);
-	insertion_sort(v.begin(), v.end())
+	insertion_sort(v.begin(), v.end());
 	REQUIRE(v[0] == 1);
 	REQUIRE(v[1] == 4);
 	REQUIRE(v[2] == 5);
